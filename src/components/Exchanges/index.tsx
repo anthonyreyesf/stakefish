@@ -85,6 +85,7 @@ export default function Exchanges() {
       columns={columns}
       dataSource={topExchangesData}
       pagination={false}
+      scroll={{ x: 900 }}
     />
   );
 }
